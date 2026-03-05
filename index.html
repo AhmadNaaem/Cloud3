@@ -2,122 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odoo Product Setup - Lab Example</title>
+    <title>Student Information</title>
     <style>
-        body {
+        body{
             font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
             background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .card{
+            background: white;
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        h1{
             color: #333;
         }
-        h1 {
-            color: #5a5a5a;
-        }
-        .product-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        .product-table th, .product-table td {
-            padding: 10px;
-            border: 1px solid #ddd;
-            text-align: left;
-        }
-        .product-table th {
-            background-color: #f2f2f2;
-        }
-        .section-title {
-            background-color: #f2f2f2;
-            padding: 10px;
-            margin-top: 30px;
-            font-size: 1.2em;
+        p{
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Odoo Product Setup - Lab Example</h1>
 
-    <h2>Product: ANS_Product</h2>
-
-    <h3>General Information</h3>
-    <table class="product-table">
-        <tr>
-            <th>Product Name</th>
-            <td>ANS_Product</td>
-        </tr>
-        <tr>
-            <th>Product Type</th>
-            <td>Goods</td>
-        </tr>
-        <tr>
-            <th>Track Inventory</th>
-            <td>Enabled</td>
-        </tr>
-        <tr>
-            <th>Unit of Measure</th>
-            <td>Units</td>
-        </tr>
-        <tr>
-            <th>Sales Price</th>
-            <td>1.00 Rs</td>
-        </tr>
-        <tr>
-            <th>Cost</th>
-            <td>0.50 Rs</td>
-        </tr>
-    </table>
-
-    <h3 class="section-title">Pricing</h3>
-    <table class="product-table">
-        <tr>
-            <th>Pricelist</th>
-            <td>Public Pricelist</td>
-        </tr>
-        <tr>
-            <th>Min Quantity</th>
-            <td>1</td>
-        </tr>
-        <tr>
-            <th>Price</th>
-            <td>1.00 Rs</td>
-        </tr>
-    </table>
-
-    <h3 class="section-title">Logistics</h3>
-    <table class="product-table">
-        <tr>
-            <th>Responsible</th>
-            <td>Ahmad Naaem Saad</td>
-        </tr>
-        <tr>
-            <th>Weight</th>
-            <td>0.10 kg</td>
-        </tr>
-        <tr>
-            <th>Volume</th>
-            <td>0.005 m³</td>
-        </tr>
-        <tr>
-            <th>Customer Lead Time</th>
-            <td>0 days</td>
-        </tr>
-        <tr>
-            <th>Description for Receipts</th>
-            <td>Store in Shelf A for Chemicals</td>
-        </tr>
-        <tr>
-            <th>Description for Delivery Orders</th>
-            <td>Pack in protective packaging and ensure correct labeling</td>
-        </tr>
-    </table>
-
-    <h3 class="section-title">Stock Movement Workflow</h3>
-    <p><strong>1. Receive Products:</strong>  
-    Product: ANS_Product, Vendor: Test Vendor, Quantity: 20, Description: Store in Shelf A for Chemicals.</p>
-    <p><strong>2. Deliver Products:</strong>  
-    Product: ANS_Product, Customer: Test Customer, Quantity: 5, Description: Pack in protective packaging and ensure correct labeling.</p>
+<div class="card">
+    <h1>Student Information</h1>
+    <p><strong>Name:</strong> Ahmad Naaem Saad</p>
+    <p><strong>Roll Number:</strong> 23SP-006-CS</p>
+</div>
 
 </body>
 </html>
